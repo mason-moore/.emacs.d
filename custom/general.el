@@ -1,4 +1,5 @@
-(menu-bar-mode -1)
+(if (not window-system)
+    (menu-bar-mode -1))
 (tool-bar-mode -1)
 (setq inhibit-startup-screen t)
 (line-number-mode 1)
