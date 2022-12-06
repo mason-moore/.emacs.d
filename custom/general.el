@@ -1,3 +1,5 @@
+(setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))
+(setq exec-path (append exec-path '("/usr/local/bin")))
 (if (not window-system)
     (menu-bar-mode -1))
 (tool-bar-mode -1)

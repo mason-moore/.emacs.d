@@ -38,6 +38,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ede-project-directories
+   '("/Users/trinity/Desktop/I/Clang.d/include" "/Users/trinity/Desktop/I/Clang.d/src" "/Users/trinity/Desktop/I/Clang.d" "/Users/trinity/Desktop/I/clang/include" "/Users/trinity/Desktop/I/clang"))
  '(package-selected-packages
    '(magit avy solarized-theme nyan-mode zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu)))
 (custom-set-faces

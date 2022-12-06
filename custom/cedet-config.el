@@ -15,7 +15,6 @@
 (add-hook 'c-mode-hook 'alexott/cedet-hook)
 (add-hook 'c++-mode-hook 'alexott/cedet-hook)
 
-(semantic-add-system-include "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/")
 
 ;; Enable EDE only in C/C++
 (require 'ede)
