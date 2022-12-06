@@ -11,9 +11,9 @@
 (require 'use-package)
 (setq use-package-always-ensure t)
 
-;; ;; (setq backup-directory-alist '("." . "~/.emacs.d/emacs_backup"))
+;; (setq backup-directory-alist '("." . "~/.emacs.d/emacs_backup"))
 
-;; ;; (require 'language-environment)
+;; (require 'language-environment)
 
 (load-theme 'solarized-dark t)
 
