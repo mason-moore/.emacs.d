@@ -5,6 +5,7 @@
 (tool-bar-mode 0)
 (line-number-mode 1)
 (column-number-mode 1)
+(global-hl-line-mode 1)
 ;; (read-only-mode 1)
 (ido-mode 1)
 (set-frame-parameter nil 'alpha 93)
@@ -31,7 +32,8 @@
 	  '(
 		(?\" . ?\")
 		(?\[ . ?\])
-		(?\{ . ?\})))
+		(?\{ . ?\})
+        (?\< . ?\>)))
 
 
 

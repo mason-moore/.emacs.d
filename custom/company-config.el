@@ -5,6 +5,7 @@
 (add-hook 'after-init-hook 'global-company-mode)
 
 
+
 (require 'color)
 (if (window-system)
 	(let ((bg (face-attribute 'default :background)))
