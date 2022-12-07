@@ -15,20 +15,21 @@
 
 ;; ;; (require 'language-environment)
 
-
+(load-theme 'solarized-dark t)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes '(misterioso))
- '(package-selected-packages '(avy undo-tree use-package smex nyan-mode company)))
+ '(package-selected-packages
+   '(magit solarized-theme avy undo-tree use-package smex nyan-mode company)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((((class color) (min-colors 89)) (:foreground "#839496" :background "#002b36"))))
  '(company-scrollbar-bg ((t (:background "#41bf505b61e3"))))
  '(company-scrollbar-fg ((t (:background "#377643c95293"))))
  '(company-tooltip ((t (:inherit default :background "#314a3c3e4963"))))
