@@ -33,7 +33,7 @@
 		(?\[ . ?\])
 		(?\{ . ?\})))
 
-(global-set-key "\C-cc" 'eshell-command)
+
 
 ;; (global-set-key "\C-w" 'clipboard-kill-region)
 ;; (global-set-key "\M-w" 'clipboard-kill-ring-save)

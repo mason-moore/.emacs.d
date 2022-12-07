@@ -1,9 +1,12 @@
 ;; -*- lexical-binding: t; -*-
-(setenv "SHELL" "/bin/btcsh")
-(setq explicit-shell-file-name "/bin/tcsh")
-(setq shell-file-name "tcsh")
-(defun csh-shell-mode-setup ()
-  (setq-local comint-process-echoes t))
+
+(global-set-key "\C-cc" 'shell-command)
+
+;; (setenv "SHELL" "/bin/btcsh")
+;; (setq explicit-shell-file-name "/bin/tcsh")
+;; (setq shell-file-name "tcsh")
+;; (defun csh-shell-mode-setup ()
+;;   (setq-local comint-process-echoes t))
 
 ;; (add-hook 'shell-mode-hook #'csh-shell-mode-setup)
 ;; (defun change-shell-mode-coding ()
